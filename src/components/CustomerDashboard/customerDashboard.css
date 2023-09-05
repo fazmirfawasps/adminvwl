@@ -1,0 +1,143 @@
+.left-content-wrapper {
+  width: 35%;
+  padding-top: 0.5rem;
+  background-color: white;
+}
+
+.right-content-wrapper {
+  width: 65%;
+  /* padding-top: 0.5rem; */
+  background-color: white;
+}
+
+.dashboard {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 21px;
+}
+
+.dashboard-content-wrapper {
+  width: 100%;
+  height: 82vh;
+  display: flex;
+}
+
+.profile-table {
+  height: 85vh;
+  padding-left: 2.5rem;
+}
+
+.profile-area {
+  height: 18%;
+  background-color: white;
+  width: 100%;
+}
+
+.userDetails-div {
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+  padding-inline: 1rem;
+}
+
+.profile-section {
+  width: 100%;
+  display: flex;
+}
+
+.profile-area {
+  display: flex;
+  width: 88%;
+  align-items: center;
+  background-color: white;
+  height: 78px;
+  color: black;
+  border: 2px solid #d6e2d79c;
+  border-radius: 12px;
+  padding-block: 2rem;
+}
+
+.profile-img img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 1px !important;
+}
+
+.css-1gsv261 {
+  border: none !important;
+}
+
+.MuiTab-root {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 7px !important;
+  font-size: 14px !important;
+  align-items: center !important;
+}
+
+.css-1om2pkr-MuiButtonBase-root-MuiTab-root > .MuiTab-iconWrapper {
+  margin-bottom: 1px !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  /* width: 96% !important; */
+  border-radius: 10px !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #8153e2 !important;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #8153e2 !important;
+}
+
+.address-div {
+  display: flex;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  color: #8153e2;
+  font-size: 12px;
+}
+
+.address-ul {
+  list-style: none;
+  width: 100%;
+  text-align: justify;
+  font-size: 10px;
+  line-height: 15px;
+  padding-inline: 1rem;
+  color: #545357;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

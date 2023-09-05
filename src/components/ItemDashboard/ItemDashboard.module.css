@@ -1,0 +1,16 @@
+
+.stockDetails_content{
+    border-right: 2px solid #D1BFF9;
+    padding-right: 5px;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+    
+}
+.stockDetails_content > p{
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+
+}

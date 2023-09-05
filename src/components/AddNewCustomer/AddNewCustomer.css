@@ -1,0 +1,86 @@
+.add-new-customer-container {
+    width: 100%;
+    display: flex;
+}
+
+.left-container-wrapper {
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    padding-right: 25px;
+    padding-bottom: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-container-wrapper {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 0px 11px 25px;
+}
+
+.checkbox-content {
+    display: flex;
+}
+
+.customer-input-right {
+    width: 100%;
+}
+
+.add-new-customer-container {
+    background-color: white;
+    /* padding-top: 1rem; */
+    overflow-y: auto;
+    height: 82vh;
+    /* padding-inline: 2rem; */
+}
+
+
+.currencySelect {
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #d6e2d79c;
+    color: #545357;
+}
+
+.label-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #8143E2 !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    font-size: 12px !important;
+}
+
+.input-right-content-customer {
+    width: 20%;
+    padding: 3px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-customer {
+    position: absolute;
+    top: 0;
+    right: 12rem;
+    width: 79px;
+    height: 79px;
+    object-fit: cover;
+    background-color: lightgray;
+}
+
+.item_input {
+    width: 14px
+}

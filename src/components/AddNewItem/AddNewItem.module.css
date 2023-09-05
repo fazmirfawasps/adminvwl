@@ -1,0 +1,37 @@
+.input_right_content_item{
+    width: 20%;
+    padding: 3px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_item{
+    background-color: lightgrey;
+    position: absolute;
+    top: 16px;
+    right: 5.1rem;
+    width: 81px;
+    height: 81px;
+    object-fit: cover;
+}
+.item_input{
+    width:14px;
+    cursor: pointer;
+}
+
+.category_button{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #EEE7FF;
+    cursor: pointer;
+    padding-left: 13px;
+}
+.MuiButtonBase-root.MuiMenuItem-root.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    padding: 0 !important;
+  }
+  
+
+  

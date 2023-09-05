@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    position: relative;
+
+}
+
+.container>img {
+    width: 100%;
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 9px;
+    max-width: 25%;
+    width:25%
+
+
+}
+
+.signInText {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.input_container{
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 5px;
+}
+.login_button{
+    margin-bottom: 60px;
+}

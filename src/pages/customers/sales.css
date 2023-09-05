@@ -1,0 +1,17 @@
+
+.tables-area {
+    height: 80vh;
+    /* padding-inline: 3.5rem; */
+    padding-left: 3rem;
+    background-color: white;
+}
+
+.dashboard-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color:white;
+}
